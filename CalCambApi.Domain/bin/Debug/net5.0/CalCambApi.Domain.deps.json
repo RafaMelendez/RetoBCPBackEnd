@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CalCambApi.Domain/1.0.0": {
+        "runtime": {
+          "CalCambApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalCambApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

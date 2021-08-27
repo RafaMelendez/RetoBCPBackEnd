@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Repository\\CalCambApi.Infraestructure.Repository.csproj": {}
+  },
+  "projects": {
+    "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\CalCambApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\CalCambApi.Domain.csproj",
+        "projectName": "CalCambApi.Domain",
+        "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\CalCambApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Connections\\CalCambApi.Infraestructure.Connections.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Connections\\CalCambApi.Infraestructure.Connections.csproj",
+        "projectName": "CalCambApi.Infraestructure.Connections",
+        "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Connections\\CalCambApi.Infraestructure.Connections.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Connections\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\CalCambApi.Domain.csproj": {
+                "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\CalCambApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Repository\\CalCambApi.Infraestructure.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Repository\\CalCambApi.Infraestructure.Repository.csproj",
+        "projectName": "CalCambApi.Infraestructure.Repository",
+        "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Repository\\CalCambApi.Infraestructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\CalCambApi.Domain.csproj": {
+                "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Domain\\CalCambApi.Domain.csproj"
+              },
+              "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Connections\\CalCambApi.Infraestructure.Connections.csproj": {
+                "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.Connections\\CalCambApi.Infraestructure.Connections.csproj"
+              },
+              "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.UnitOfWork.Repository\\CalCambApi.Infraestructure.UnitOfWork.Repository.csproj": {
+                "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.UnitOfWork.Repository\\CalCambApi.Infraestructure.UnitOfWork.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.UnitOfWork.Repository\\CalCambApi.Infraestructure.UnitOfWork.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.UnitOfWork.Repository\\CalCambApi.Infraestructure.UnitOfWork.Repository.csproj",
+        "projectName": "CalCambApi.Infraestructure.UnitOfWork.Repository",
+        "projectPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.UnitOfWork.Repository\\CalCambApi.Infraestructure.UnitOfWork.Repository.csproj",
+        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
+        "outputPath": "D:\\Postulaciones\\BCP\\RetoFinal\\Backend\\RetoBCPBack\\CalCambApi.Infraestructure.UnitOfWork.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

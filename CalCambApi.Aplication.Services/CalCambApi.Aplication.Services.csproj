@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalCambApi.Aplication.Adapter\CalCambApi.Aplication.Adapter.csproj" />
+    <ProjectReference Include="..\CalCambApi.Domain\CalCambApi.Domain.csproj" />
+    <ProjectReference Include="..\CalCambApi.Infraestructure.UnitOfWork\CalCambApi.Infraestructure.UnitOfWork.csproj" />
+  </ItemGroup>
+
+</Project>
